@@ -20,6 +20,8 @@
 
 
 const char* waylandclientName = "libwayland-client.so.0";
+#define ALTNAME "libwayland-client.so"
+
 #define LIBNAME waylandclient
 
 #define ADDED_FUNCTIONS() \

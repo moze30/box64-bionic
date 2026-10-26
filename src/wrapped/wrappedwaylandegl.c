@@ -19,6 +19,8 @@
 
 
 const char* waylandeglName = "libwayland-egl.so.1";
+#define ALTNAME "libwayland-egl.so"
+
 #define LIBNAME waylandegl
 
 #include "wrappedlib_init.h"
