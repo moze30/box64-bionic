@@ -1273,6 +1273,7 @@
 #() iFpild
 #() iFpiLL
 #() iFpipi
+#() iFpipI
 #() iFpipu
 #() iFpipL
 #() iFpipp
@@ -5413,6 +5414,10 @@ wrappedldapr:
 wrappedldlinux:
 - pFp:
   - __tls_get_addr
+wrappedlibaaudio:
+- vFppp:
+  - AAudioStreamBuilder_setDataCallback
+  - AAudioStreamBuilder_setErrorCallback
 wrappedlibasound:
 - iFp:
   - snd_dlclose
@@ -5440,7 +5445,11 @@ wrappedlibasound:
 - iFppupp:
   - snd_pcm_hook_add
 wrappedlibavcodec58:
+wrappedlibavcodec63:
 wrappedlibavformat58:
+- pFpiipppp:
+  - avio_alloc_context
+wrappedlibavformat63:
 - pFpiipppp:
   - avio_alloc_context
 wrappedlibavutil56:
@@ -5470,6 +5479,9 @@ wrappedlibavutil56:
   - av_buffer_create
 - iFpppppppip:
   - av_expr_parse
+wrappedlibavutil61:
+- vFp:
+  - av_log_set_callback
 wrappedlibblas:
 wrappedlibbsd:
 wrappedlibc:
