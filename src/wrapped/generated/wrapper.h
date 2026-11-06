@@ -1216,6 +1216,7 @@ void iFpili(x64emu_t *emu, uintptr_t fnc);
 void iFpild(x64emu_t *emu, uintptr_t fnc);
 void iFpiLL(x64emu_t *emu, uintptr_t fnc);
 void iFpipi(x64emu_t *emu, uintptr_t fnc);
+void iFpipI(x64emu_t *emu, uintptr_t fnc);
 void iFpipu(x64emu_t *emu, uintptr_t fnc);
 void iFpipL(x64emu_t *emu, uintptr_t fnc);
 void iFpipp(x64emu_t *emu, uintptr_t fnc);

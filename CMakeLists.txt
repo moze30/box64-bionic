@@ -598,8 +598,11 @@ set(WRAPPEDS
     "${BOX64_ROOT}/src/wrapped/wrappedldlinux.c"
     "${BOX64_ROOT}/src/wrapped/wrappedlibasound.c"
     "${BOX64_ROOT}/src/wrapped/wrappedlibavcodec58.c"
+    "${BOX64_ROOT}/src/wrapped/wrappedlibavcodec63.c"
     "${BOX64_ROOT}/src/wrapped/wrappedlibavformat58.c"
+    "${BOX64_ROOT}/src/wrapped/wrappedlibavformat63.c"
     "${BOX64_ROOT}/src/wrapped/wrappedlibavutil56.c"
+    "${BOX64_ROOT}/src/wrapped/wrappedlibavutil61.c"
     "${BOX64_ROOT}/src/wrapped/wrappedlibblas.c"
     "${BOX64_ROOT}/src/wrapped/wrappedlibbsd.c"
     "${BOX64_ROOT}/src/wrapped/wrappedlibc.c"
@@ -788,6 +791,7 @@ set(WRAPPEDS
 endif()
 if(ANDROID)
     list(APPEND WRAPPEDS
+        "${BOX64_ROOT}/src/wrapped/wrappedlibaaudio.c"
         "${BOX64_ROOT}/src/wrapped/wrappedandroidshmem.c"
     )
 endif()

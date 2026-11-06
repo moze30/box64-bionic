@@ -387,6 +387,7 @@ GO("libblas.so", libblas)
 GO("liblapack.so.3", liblapack)
 GO("liblapack.so", liblapack)
 #ifdef ANDROID
+GO("libaaudio.so", libaaudio)
 GO("libandroid-shmem.so", androidshmem)
 #endif
 
@@ -409,6 +410,9 @@ GO("libxml2.so.2", xml2)
 GO("libavutil.so.56", libavutil56)
 GO("libavformat.so.58", libavformat58)
 GO("libavcodec.so.58", libavcodec58)
+GO("libavutil.so.61", libavutil61)
+GO("libavformat.so.63", libavformat63)
+GO("libavcodec.so.63", libavcodec63)
 
 #ifdef TERMUX
 GO("libiconv.so", iconv)
